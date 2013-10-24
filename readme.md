@@ -16,10 +16,10 @@ You can link Javascript with the SCSS media queries names found in _breakpoints.
 
 Eg.
 
-<code>
+<pre>
 var mQuery = window.getComputedStyle(document.body,':after').getPropertyValue('content');
 
 if (mQuery.indexOf("stewie") !=-1) {
  // Do something 
 }
-</code>
+</pre>
