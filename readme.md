@@ -5,8 +5,21 @@ I created this for my own pesonal use. Created so I can simply <code>$ git clone
 
 It contains:
 * A modular approach to SCSS, broken up into modules and partials
+* Normalize is also modularized 
 * Custom mixins that Compass doesn't have
 * Custom placeholders for clearfix and absolute centering
-* best practices from the HTML5 Boilerplate CSS also broken down into modules
 * DNS prefetching for Analytics
 
+
+###New feature
+You can link Javascript with the SCSS media queries names found in _breakpoints.scss.
+
+Eg.
+
+<code>
+var mQuery = window.getComputedStyle(document.body,':after').getPropertyValue('content');
+
+if (mQuery.indexOf("stewie") !=-1) {
+ // Do something 
+}
+</code>
