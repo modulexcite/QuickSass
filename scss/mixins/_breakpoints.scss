@@ -14,17 +14,3 @@ $breakpoints: stewie 18.74em, brian 31.25em, chris 48.875em, lois 60em, peter 71
       } 
     }
 }
-
-// Creates body:after elements with content of each breakpoint name
-// Used to link events to media queries
-
-@each $breakpoint in $breakpoints {
-    $name: nth($breakpoint, 1);
-    $width: nth($breakpoint, 2);
-
-  @include bp($name) {
-      body:after {
-      content: '#{$name}';
-      display: none;
-      }
-    }

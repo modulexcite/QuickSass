@@ -12,14 +12,4 @@ It contains:
 
 
 ###New feature
-You can link Javascript with the SCSS media queries names found in _breakpoints.scss.
-
-Eg.
-
-<pre>
-var mQuery = window.getComputedStyle(document.body,':after').getPropertyValue('content');
-
-if (mQuery.indexOf("stewie") !=-1) {
- // Do something 
-}
-</pre>
+If on OSX Mavericks, double click local.command to start a localhost. May need to chmod to 775 for it to work.

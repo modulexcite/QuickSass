@@ -66,35 +66,6 @@ $(window).resize(function() { imgSwap(); });
 
 
 
-
-// You can test for SCSS media queries using this.
-// These names correspond to the names of the breakpoints in _breakpoints.scss:
-
-
-var mQuery = window.getComputedStyle(document.body,':after').getPropertyValue('content');
-
-if (mQuery.indexOf("stewie") !=-1) {
- //do something
-}
-
-if (mQuery.indexOf("brian") !=-1) {
- //do something
-}
-
-if (mQuery.indexOf("chris") !=-1) {
- //do something
-}
-
-if (mQuery.indexOf("lois") !=-1) {
- //do something
-}
-
-if (mQuery.indexOf("peter") !=-1) {
- //do something
-}
-
-
-
   });
 
 })(jQuery, window, document);

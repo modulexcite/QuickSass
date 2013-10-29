@@ -1,0 +1,3 @@
+cd `dirname $0`
+
+php -S localhost:8888
