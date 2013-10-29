@@ -1,5 +1,9 @@
 @import "compass";
 
+//-----------Config--------------//
+//-------------------------------//
+@import "modules/_vars";
+
 
 //-----------Mixins--------------//
 //-------------------------------//
@@ -15,11 +19,9 @@
 //-----------Modules-------------//
 //-------------------------------//
 
-// Config modules
-@import "modules/_vars";
-@import "modules/_base";
 
 // Objects and modules
+@import "modules/_base";
 @import "modules/_buttons";
 @import "modules/_forms";
 @import "modules/_lists";
