@@ -40,6 +40,25 @@ a:hover {
 }
 
 
+a {
+        &:link {
+
+        }
+        &:visited {
+
+        }
+        &:hover {
+
+        }
+        &:active {
+
+        }
+        &:focus {
+
+        }
+}
+
+
 abbr[title] {
     border-bottom: 1px dotted;
 }
