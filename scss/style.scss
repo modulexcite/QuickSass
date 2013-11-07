@@ -2,7 +2,7 @@
 
 //-----------Config--------------//
 //-------------------------------//
-@import "modules/_vars";
+@import "_vars";
 
 
 //-----------Mixins--------------//
@@ -35,8 +35,12 @@
 @import "modules/_app";
 
 // Enhancement modules
-@import "modules/_print";
+@import "helpers/_print";
+@import "helpers/_debug";
 
+
+// The dirty CSS
+@import "modules/_shame";
 
 
 //---------Placeholders----------//
