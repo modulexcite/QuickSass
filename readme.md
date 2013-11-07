@@ -1,4 +1,4 @@
-##QuickStart
+##QuickSass
 This is a Sass Boilerplate for quick set up of projects.
 I created this for my own pesonal use, so I can simply <code>$ git clone</code> the repository, add the folder to CodeKit and I'm already set up to go. 
 
