@@ -11,7 +11,7 @@ It contains:
 * DNS prefetching for Analytics
 * If on OSX Mavericks, double click local.command to start a localhost. May need to chmod to 775 for it to work.
 
-##Thanks to
+###Thanks to
 * @h5bp team for some best practices
 * @toddmotto for some of the folder structure
 * @csswizardry for _debug.scss and _shame.scss
