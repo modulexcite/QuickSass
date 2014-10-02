@@ -1,6 +1,6 @@
 // via inuit.css - https://github.com/csswizardry/inuit.css
 
-@if $debugmode == true{
+@if $debugmode == true {
 /*------------------------------------*\
     $DEBUG
 \*------------------------------------*/
@@ -20,7 +20,7 @@
 /**
  * Are there any empty elements in your page?
  */
-:empty{
+:empty {
     outline:5px solid yellow;
 }
 
@@ -29,13 +29,13 @@
  * Images require `alt` attributes, empty `alt`s are fine but should be
  * double-checked, no `alt` is bad and is flagged red.
  */
-img{
+img {
     outline:5px solid red;
 }
-img[alt]{
+img[alt] {
     outline:none;
 }
-img[alt=""]{
+img[alt=""] {
     outline:5px solid yellow;
 }
 
@@ -44,10 +44,10 @@ img[alt=""]{
  * Links sometimes, though not always, benefit from `title` attributes. Links
  * without are never invalid but it’s a good idea to check.
  */
-a{
+a {
     outline:5px solid yellow;
 }
-a[title]{
+a[title] {
     outline:none;
 }
 
@@ -56,7 +56,7 @@ a[title]{
  * Double-check any links whose `href` is something questionable.
  */
 a[href="#"],
-a[href*="javascript"]{
+a[href*="javascript"] {
     outline:5px solid yellow;
 }
 
@@ -64,7 +64,7 @@ a[href*="javascript"]{
 /**
  * The `target` attribute ain’t too nice...
  */
-a[target]{
+a[target] {
     outline:5px solid yellow;
 }
 
@@ -73,7 +73,7 @@ a[target]{
  * Ensure any lists only contain `li`s as children.
  */
 ul,
-ol{
+ol {
     > *:not(li){
         outline:5px solid red;
     }
@@ -83,10 +83,10 @@ ol{
 /**
  * It’s always nice to give `th`s `scope` attributes.
  */
-th{
+th {
     outline:5px solid yellow;
 }
-th[scope]{
+th[scope] {
     outline:none;
 }
 
@@ -94,7 +94,7 @@ th[scope]{
 /**
  * `tr`s as children of `table`s ain’t great, did you need a `thead`/`tbody`?
  */
-table > tr{
+table > tr {
     outline:5px solid yellow;
 }
 
@@ -102,7 +102,7 @@ table > tr{
 /**
  * `tfoot` needs to come *before* `tbody`.
  */
-tbody + tfoot{
+tbody + tfoot {
     outline:5px solid yellow;
 }
 
@@ -110,10 +110,10 @@ tbody + tfoot{
 /**
  * Forms require `action` attributes
  */
-form{
+form {
     outline:5px solid red;
 }
-form[action]{
+form[action] {
     outline:none;
 }
 
@@ -124,19 +124,19 @@ form[action]{
  * need a `value` attribute.
  */
 textarea,
-input{
+input {
     outline:5px solid red;
 }
-input[type]{
+input[type] {
     outline:none;
 }
-textarea[rows][cols]{
+textarea[rows][cols] {
     outline:none;
 }
-input[type=submit]{
+input[type=submit] {
     outline:5px solid red;
 }
-input[type=submit][value]{
+input[type=submit][value] {
     outline:none;
 }
 
@@ -144,7 +144,7 @@ input[type=submit][value]{
 /**
  * Avoid inline styles where possible.
  */
-[style]{
+[style] {
 	outline:5px solid yellow;
 }
 
@@ -152,7 +152,7 @@ input[type=submit][value]{
 /**
  * You should avoid using IDs for CSS, is this doing any styling?
  */
-[id]{
+[id] {
 	outline:5px solid yellow;
 }
 
